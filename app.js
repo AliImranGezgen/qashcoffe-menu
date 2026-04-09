@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const activeBtn = navBtns[activeIndex];
         if (activeBtn) {
           activeBtn.classList.add('active');
-          activeBtn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+          activeBtn.scrollIntoView({ behavior: 'auto', inline: 'center', block: 'nearest' });
         }
       }
     });
