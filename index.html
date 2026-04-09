@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Q'ASH COFFEE | Premium Dijital Menü</title>
+  <meta name="description" content="Q'ASH Coffee dijital QR menüsü. Modern, premium kahve deneyimi.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Abstract backgrounds -->
+  <div class="bg-texture"></div>
+  <div class="bg-watermark">Q'ASH</div>
+
+  <header class="header">
+    <div class="header-content">
+      <h1 class="logo">Q'ASH</h1>
+      <p class="tagline">COFFEE & CRAFT</p>
+    </div>
+  </header>
+
+  <div class="sticky-nav-container">
+    <nav class="category-nav" id="categoryTabList">
+      <!-- Categories dynamically injected via JS -->
+    </nav>
+  </div>
+
+  <main class="menu-container" id="menuContainer">
+    <!-- Menu structure dynamically generated via JS -->
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <h2 class="logo-footer">Q'ASH</h2>
+      <p class="tagline-footer">Coffee Roasters</p>
+      <p class="year">&copy; <span id="year"></span> | Tüm fiyatlarımız günceldir.</p>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
